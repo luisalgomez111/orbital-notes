@@ -9,6 +9,13 @@ Una aplicación de escritorio moderna y elegante para la gestión de notas, cons
 - **Rendimiento**: Optimizada para ser rápida y ligera.
 - **Multiplataforma**: Funciona en Windows (y adaptable a otros sistemas operativos).
 
+## 📥 Descarga
+
+Puedes descargar la última versión para Windows aquí:
+[![Descargar Orbital Notas](https://img.shields.io/badge/Descargar-v1.0.0-blue?style=for-the-badge&logo=windows)](https://github.com/luisalgomez111/orbital-notes/releases)
+
+---
+
 ## 🛠️ Tecnologías Utilizadas
 
 Este proyecto utiliza un stack tecnológico robusto y moderno:
