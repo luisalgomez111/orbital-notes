@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'highlight.js/styles/atom-one-dark.css';
+/* Syntax Highlighting */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ... existing vars ... */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f3f4f6;
+    /* Darker grey for better contrast */
+    --bg-tertiary: #e5e7eb;
+    /* Even darker for inputs/surfaces */
+    --surface: #ffffff;
+    --surface-hover: #f3f4f6;
+    --border-color: #d1d5db;
+    /* Darker border */
+
+    --text-primary: #111827;
+    /* Nearly black */
+    --text-secondary: #374151;
+    /* Dark grey */
+    --text-tertiary: #4b5563;
+    --text-faint: #9ca3af;
+    --primary: #8b5cf6;
+    --primary-hover: #7c3aed;
+    --primary-surface: #f3e8ff;
+
+    /* Table border vars */
+    --table-border: #9ca3af;
+    /* Grey for light mode */
+  }
+
+  .dark {
+    --bg-primary: #0f172a;
+    /* Slate 950 */
+    --bg-secondary: #020617;
+    /* Slate 950 darker */
+    --bg-tertiary: #1e293b;
+    /* Slate 800 */
+    --surface: #1e293b;
+    --surface-hover: #334155;
+    --border-color: #334155;
+
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-tertiary: #94a3b8;
+    --text-faint: #64748b;
+
+    /* Table border vars */
+    --table-border: #e2e8f0;
+    /* White/Light Grey for dark mode */
+  }
+}
+
+body {
+  @apply bg-background text-foreground font-sans;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-border rounded-full hover:bg-foreground-muted transition-colors;
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Code Block / Terminal Styling */
+.prose pre {
+  @apply bg-[#1e1e1e] text-[#d4d4d4] rounded-lg border border-[#333] shadow-lg !important;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.prose code {
+  @apply px-1.5 py-0.5 rounded bg-surface-hover text-primary font-medium text-sm;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+.prose pre code {
+  @apply bg-transparent p-0 text-inherit font-normal;
+}
+
+/* Table Styling Override */
+.prose table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.prose th,
+.prose td {
+  border: 1px solid var(--table-border) !important;
+  padding: 0.5rem;
+}
+
+/* Editor Specifics */
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: var(--text-faint);
+  pointer-events: none;
+  height: 0;
+}
