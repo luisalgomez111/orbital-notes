@@ -64,3 +64,11 @@ npm run build
 
 Este proyecto está bajo la Licencia [MIT](LICENSE).
 
+## ☕ Apóyame
+
+Si te gusta este proyecto y quieres apoyar su desarrollo, puedes invitarme un café:
+
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/paypalme/luisalbertogomez111)
+o directamente a: `luisalbertogomez111@gmail.com`
+
+
