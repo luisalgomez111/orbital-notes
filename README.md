@@ -1,5 +1,7 @@
 # Orbital Notas
 
+[![Descargar v1.0.0](https://img.shields.io/badge/Descargar(Windows)-v1.0.0-success?style=for-the-badge&logo=windows)](https://github.com/luisalgomez111/orbital-notes/releases/tag/v1.0.0)
+
 Una aplicación de escritorio moderna y elegante para la gestión de notas, construida con las últimas tecnologías web.
 
 ## 🚀 Características
@@ -12,7 +14,7 @@ Una aplicación de escritorio moderna y elegante para la gestión de notas, cons
 ## 📥 Descarga
 
 Puedes descargar la última versión para Windows aquí:
-[![Descargar Orbital Notas](https://img.shields.io/badge/Descargar-v1.0.0-blue?style=for-the-badge&logo=windows)](https://github.com/luisalgomez111/orbital-notes/releases)
+[![Descargar Orbital Notas](https://img.shields.io/badge/Descargar-v1.0.0-blue?style=for-the-badge&logo=windows)](https://github.com/luisalgomez111/orbital-notes/releases/tag/v1.0.0)
 
 ---
 
