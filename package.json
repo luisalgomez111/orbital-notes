@@ -3,6 +3,7 @@
   "productName": "Orbital Notes",
   "private": true,
   "version": "1.0.0",
+  "license": "MIT",
   "description": "Orbital Notes application",
   "author": "Orbital Team",
   "type": "module",

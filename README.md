@@ -59,3 +59,8 @@ npm run build
 ## 🤝 Contribución
 
 ¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar Orbital Notas, no dudes en abrir un *issue* o enviar un *pull request*.
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia [MIT](LICENSE).
+
