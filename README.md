@@ -1,73 +1,52 @@
-# React + TypeScript + Vite
+# Orbital Notas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación de escritorio moderna y elegante para la gestión de notas, construida con las últimas tecnologías web.
 
-Currently, two official plugins are available:
+## 🚀 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Gestión de Notas**: Crea, edita y organiza tus notas de manera eficiente.
+- **Interfaz Moderna**: Diseño limpio y minimalista para una mejor experiencia de usuario.
+- **Rendimiento**: Optimizada para ser rápida y ligera.
+- **Multiplataforma**: Funciona en Windows (y adaptable a otros sistemas operativos).
 
-## React Compiler
+## 🛠️ Tecnologías Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este proyecto utiliza un stack tecnológico robusto y moderno:
 
-## Expanding the ESLint configuration
+- **[Electron](https://www.electronjs.org/)**: Para la creación de la aplicación de escritorio.
+- **[React](https://reactjs.org/)**: Librería para la interfaz de usuario.
+- **[TypeScript](https://www.typescriptlang.org/)**: Para un código más seguro y escalable.
+- **[Vite](https://vitejs.dev/)**: Entorno de desarrollo ultrarrápido.
+- **[TailwindCSS](https://tailwindcss.com/)**: Para estilos y diseño responsivo.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 💻 Instalación y Uso Local
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Sigue estos pasos para ejecutar la aplicación en tu computadora:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+1. **Clonar el repositorio**:
+   ```bash
+   git clone https://github.com/luisalgomez111/orbital-notes.git
+   cd orbital-notes
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. **Instalar dependencias**:
+   ```bash
+   npm install
+   ```
+
+3. **Ejecutar en modo desarrollo**:
+   ```bash
+   npm run dev
+   ```
+
+## 📦 Construcción (Build)
+
+Para generar el instalador o ejecutable de la aplicación:
+
+```bash
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🤝 Contribución
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar Orbital Notas, no dudes en abrir un *issue* o enviar un *pull request*.
