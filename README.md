@@ -14,7 +14,6 @@ Una aplicación de escritorio moderna y elegante para la gestión de notas, cons
 ## 📸 Galería
 
 <p align="center">
-  <img src="screenshots/screenshot-1.png" width="45%" alt="Captura 1" />
   <img src="screenshots/screenshot-2.png" width="45%" alt="Captura 2" />
   <img src="screenshots/screenshot-3.png" width="45%" alt="Captura 3" />
   <img src="screenshots/screenshot-4.png" width="45%" alt="Captura 4" />
