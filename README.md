@@ -69,7 +69,6 @@ Este proyecto está bajo la Licencia [MIT](LICENSE).
 Si te gusta este proyecto y quieres apoyar su desarrollo, puedes invitarme un café:
 
 [![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/paypalme/LGomez1991)
-o directamente a: `luisalbertogomez111@gmail.com`
 
 **Binance**: `luisalbertogomez111@gmail.com`
 

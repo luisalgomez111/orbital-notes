@@ -26,3 +26,5 @@ builder-cache
 *.njsproj
 *.sln
 *.sw?
+
+*.zip
